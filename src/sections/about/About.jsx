@@ -1,11 +1,9 @@
-import "./about.css";
+import './about.css'
 
 const About = () => {
   return (
-    <section id="about">
-      <h2>About</h2>
-    </section>
-  );
-};
+    <section id="about"><h2>About</h2></section>
+  )
+}
 
-export default About;
+export default About

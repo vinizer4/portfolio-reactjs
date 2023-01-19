@@ -1,7 +1,9 @@
-import "./floating-nav.css";
+import './floating-nav.css'
 
 const FloatingNav = () => {
-  return <section id="floating__nav"></section>;
-};
+  return (
+    <section id="floating__nav"></section>
+  )
+}
 
-export default FloatingNav;
+export default FloatingNav
