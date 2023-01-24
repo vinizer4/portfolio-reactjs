@@ -23,7 +23,7 @@ const Project = ({ project }) => {
           target="_blank"
           rel="noopner noreferrer"
         >
-          Gitbub
+          GitHub
         </a>
       </div>
     </Card>
