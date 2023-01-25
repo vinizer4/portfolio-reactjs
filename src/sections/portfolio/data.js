@@ -5,6 +5,7 @@ import Image4 from "../../assets/project4.jpg";
 import Image5 from "../../assets/project5.jpg";
 import Image6 from "../../assets/project6.jpg";
 import Image7 from "../../assets/project7.jpg";
+import Image8 from "../../assets/project8.jpg";
 
 const data = [
   {
@@ -73,7 +74,7 @@ const data = [
   {
     id: 9,
     category: "frontend",
-    image: Image7,
+    image: Image8,
     title: "Snack Game (frontend)",
     desc: "Snack Game with javascript",
     demo: "https://vinizer4.github.io/Snake-Game/",
