@@ -5,21 +5,10 @@ import Image4 from "../../assets/project4.jpg";
 import Image5 from "../../assets/project5.jpg";
 import Image6 from "../../assets/project6.jpg";
 import Image7 from "../../assets/project7.jpg";
-import Image8 from "../../assets/project8.jpg";
-import Image9 from "../../assets/project9.jpg";
 
 const data = [
   {
     id: 1,
-    category: "uiux",
-    image: Image1,
-    title: "Project Title One (UIUX)",
-    desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: "http://egatortutorials.com",
-    github: "https://github.com/egattor",
-  },
-  {
-    id: 2,
     category: "frontend",
     image: Image2,
     title: "ToDo-list (Frontend)",
@@ -28,7 +17,7 @@ const data = [
     github: "https://github.com/vinizer4/IgniteTodo",
   },
   {
-    id: 3,
+    id: 2,
     category: "frontend",
     image: Image3,
     title: "GitHub Blog (Frontend)",
@@ -37,7 +26,7 @@ const data = [
     github: "https://github.com/vinizer4/IgniteGitHubBlog",
   },
   {
-    id: 4,
+    id: 3,
     category: "frontend",
     image: Image4,
     title: "CoffeDelivery (Frontend)",
@@ -46,49 +35,49 @@ const data = [
     github: "https://github.com/vinizer4/CoffeeDelivery",
   },
   {
-    id: 5,
+    id: 4,
     category: "frontend",
     image: Image5,
     title: "Pomodoro Application (Frontend)",
-    desc: "Project of a timer with history page, developed in ReactJS and TypeScript. The application has 2 screens: The initial screen, where the user can enter a task to be performed (ex: training) and the duration of the timer activity. The history of performed activities, displaying the duration time, creation date and activity status (In Progress, Completed or Interrupted).",
+    desc: "Project of a timer with history page, developed in ReactJS and TypeScript. The application has 2 screens: The initial screen, where the user can enter a task to be performed.",
     demo: "https://ignite-timer-swart.vercel.app/",
     github: "https://github.com/vinizer4/IgniteTimer",
+  },
+  {
+    id: 5,
+    category: "frontend",
+    image: Image1,
+    title: "Memory game (frontend)",
+    desc: "Memory game with the theme of stacks used in web development",
+    demo: "https://vinizer4.github.io/JogoDaMemoriaProgramadorBR/",
+    github: "https://github.com/vinizer4/JogoDaMemoriaProgramadorBR",
   },
   {
     id: 6,
     category: "frontend",
     image: Image6,
-    title: "Project Title Six (Frontend)",
-    desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: "http://egatortutorials.com",
-    github: "https://github.com/egattor",
+    title: "Employee Registration (frontend)",
+    desc: "Registration of employees, data stored in a host location in the user's browser",
+    demo: "https://vinizer4.github.io/JogoDaMemoriaProgramadorBR/",
+    github: "https://github.com/vinizer4/CadastroFuncionarios-CRUD",
   },
   {
     id: 7,
     category: "frontend",
     image: Image7,
-    title: "Project Title Seven (Frontend)",
-    desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: "http://egatortutorials.com",
-    github: "https://github.com/egattor",
-  },
-  {
-    id: 8,
-    category: "backend",
-    image: Image8,
-    title: "Project Title Eight (Backend)",
-    desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: "http://egatortutorials.com",
-    github: "https://github.com/egattor",
+    title: "Beauty Salon (frontend)",
+    desc: "Professional landing page for beauty salon",
+    demo: "https://vinizer4.github.io/beautysaloon/",
+    github: "https://github.com/vinizer4/beautysaloon",
   },
   {
     id: 9,
     category: "frontend",
-    image: Image9,
-    title: "Project Title Nine (Frontend)",
-    desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    demo: "http://egatortutorials.com",
-    github: "https://github.com/egattor",
+    image: Image7,
+    title: "Snack Game (frontend)",
+    desc: "Snack Game with javascript",
+    demo: "https://vinizer4.github.io/Snake-Game/",
+    github: "https://github.com/vinizer4/Snake-Game",
   },
 ];
 
