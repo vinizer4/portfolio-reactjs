@@ -59,7 +59,7 @@ const data = [
     image: Image6,
     title: "Employee Registration (frontend)",
     desc: "Registration of employees, data stored in a host location in the user's browser",
-    demo: "https://vinizer4.github.io/JogoDaMemoriaProgramadorBR/",
+    demo: "https://vinizer4.github.io/CadastroFuncionarios-CRUD/",
     github: "https://github.com/vinizer4/CadastroFuncionarios-CRUD",
   },
   {
