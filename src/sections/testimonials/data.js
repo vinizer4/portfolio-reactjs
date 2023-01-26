@@ -52,13 +52,6 @@ const data = [
     name: "Hajia Bintu",
     profession: "Brand Influencer",
   },
-  {
-    id: 7,
-    quote: "Keep doing great stuff, dear! Nicely executed!",
-    avatar: Avatar7,
-    name: "Nicki Nyarko",
-    profession: "Makeup Artist",
-  },
 ];
 
 export default data;
