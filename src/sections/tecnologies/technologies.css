@@ -1,13 +1,12 @@
 #technologies {
-    padding-bottom: 0;
-    margin: 0.5rem;
+    padding: 5rem 2rem 2rem 0;
 }
 
 
 
 .swiper {
     height: fit-content;
-    padding-bottom: 12rem;
+    padding-bottom: 10rem;
     /* this padding top is to give space for micro interaction on hover of swiper slide */
     padding-top: 1rem;
 }
@@ -30,7 +29,7 @@
 }
 
 .swiper-pagination {
-    margin-bottom: 8rem;
+    margin-bottom: 2rem;
 }
 
 .swiper-pagination-bullet {
