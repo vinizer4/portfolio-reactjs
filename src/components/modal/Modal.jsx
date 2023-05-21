@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-import ReactDOM from "react-dom";
-import Card from "./Card";
-import { useModalContext } from "../context/modal-context";
+import ReactDOM            from "react-dom";
+import Card                from "../cardTecnologies/CardTecnologies";
+import { useModalContext } from "../../context/modal-context";
 import "./modal.css";
 
 const Modal = ({ className, children }) => {

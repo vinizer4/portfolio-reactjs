@@ -1,6 +1,6 @@
 import "./card.css";
 
-const Card = ({ children, className, onClick }) => {
+const CardTecnologies = ({ children, className, onClick }) => {
   return (
     <article className={`card ${className}`} onClick={onClick}>
       {children}
@@ -8,4 +8,4 @@ const Card = ({ children, className, onClick }) => {
   );
 };
 
-export default Card;
+export default CardTecnologies;

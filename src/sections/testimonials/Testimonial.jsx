@@ -1,4 +1,4 @@
-import Card from "../../components/Card"
+import Card from "../../components/cardTecnologies/CardTecnologies"
 
 const Testimonial = ({testimonial}) => {
   return (

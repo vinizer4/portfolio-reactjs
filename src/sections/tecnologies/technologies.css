@@ -1,0 +1,35 @@
+#technologies {
+    padding-bottom: 0;
+}
+
+.swiper {
+    height: fit-content;
+    padding-bottom: 12rem;
+    /* this padding top is to give space for micro interaction on hover of swiper slide */
+    padding-top: 1rem;
+}
+
+.swiper-slide {
+    cursor: grab;
+}
+
+.technology__icon {
+    width: 5rem;
+    heigh: 5rem;
+    aspect-ratio: 1/1;
+    border-radius: var(--border-radius-2);
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.technology__details {
+    margin-top: 1.5rem;
+}
+
+.swiper-pagination {
+    margin-bottom: 8rem;
+}
+
+.swiper-pagination-bullet {
+    background: var(--color-primary);
+}

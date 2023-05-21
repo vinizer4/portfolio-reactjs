@@ -1,4 +1,4 @@
-import Modal from "../components/Modal";
+import Modal                               from "../components/modal/Modal";
 import { primaryColors, backgroundColors } from "./data";
 import PrimaryColor from "./PrimaryColor";
 import BackgroundColor from "./BackgroundColor";
