@@ -23,10 +23,10 @@ const Technologies = () => {
 			</p>
 			<div className="container">
 				<Swiper
-					slidesPerView={1}
+					slidesPerView={2}
 					spaceBetween={30}
 					breakpoints={{
-						601: {slidesPerView: 4},
+						601: {slidesPerView: 6},
 						1025: {slidesPerView: 8}
 					}}
 					pagination={{
