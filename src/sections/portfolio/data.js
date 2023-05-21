@@ -12,6 +12,15 @@ import Image11 from '../../assets/Project12.png'
 import Image12 from '../../assets/project13.png'
 import Image13 from '../../assets/project14.png'
 import Image14 from '../../assets/project15.png'
+import BarbeariaAlura from '../../assets/barbeariaAlura.png'
+import Alurinha from '../../assets/Alurinha.jpeg'
+import Apeperia from '../../assets/Apeperia.png'
+import Robotron from '../../assets/robotron.png'
+import AluraFone from '../../assets/alurafone.png'
+import AluraMidi from '../../assets/aluraMidi.png'
+import Monitoria from '../../assets/monitoria.png'
+import NodeJS from '../../assets/NodeJS.png'
+import DTmoney from '../../assets/DTmoney.png'
 
 const data = [
   {
@@ -60,13 +69,12 @@ const data = [
     github: "https://github.com/vinizer4/JogoDaMemoriaProgramadorBR",
   },
   {
-    id: 6,
+    id: 24,
     category: "frontend",
-    image: Image6,
-    title: "Employee Registration (Frontend)",
-    desc: "Registration of employees, data stored in a host location in the user's browser",
-    demo: "https://vinizer4.github.io/CadastroFuncionarios-CRUD/",
-    github: "https://github.com/vinizer4/CadastroFuncionarios-CRUD",
+    image: DTmoney,
+    title: "Ignite DTMoney APP (Frontend)",
+    desc: "APP for financial management developed using React, React Hook Form, UseContext, LiveServer, Axios, Zod, Styled Components",
+    github: "https://github.com/vinizer4/DT-Money",
   },
   {
     id: 7,
@@ -143,6 +151,108 @@ const data = [
           + " payments",
     github: "https://github.com/vinizer4/IgniteShop",
   },
+  {
+    id: 16,
+    category: "backend",
+    image: Image10,
+    title: "Dental clinic SpringBoot (Backend)",
+    desc: "Dental clinic management appointment scheduling API build with Java and SpringBoot, RESTFul,"
+          + " JPA, JWT, Spring Security, SWAGGER, MySQL, MAVEN",
+    github: "https://github.com/vinizer4/ClinicaOdontologica",
+  },
+  {
+    id: 17,
+    category: "frontend",
+    image: BarbeariaAlura,
+    title: "Alura Barber (Frontend)",
+    demo: "https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/barbearia__alura/",
+    desc: "Website for a barber shop developed during the Boticario group's 2023 program",
+    github: "https://github.com/vinizer4/BoticarioDesenvolveAlura/blob/main/projects/barbearia__alura/README.md",
+  },
+  {
+    id: 18,
+    category: "frontend",
+    image: Alurinha,
+    title: "Alurinha (Frontend)",
+    desc: "Courses list page developed during the Boticario group's"
+          + " 2023"
+          + " program",
+    demo: "https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/alurinha__alura/",
+    github: "https://github.com/vinizer4/BoticarioDesenvolveAlura/tree/main/projects/alurinha__alura",
+  },
+  {
+    id: 19,
+    category: "frontend",
+    image: Apeperia,
+    title: "Apeperia (Frontend)",
+    desc: "Apeperia page developed during the Boticario group's"
+          + " 2023"
+          + " program",
+    demo: "https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/apeperia__alura/",
+    github: "https://github.com/vinizer4/BoticarioDesenvolveAlura/tree/main/projects/apeperia__alura",
+  },
+  {
+    id: 20,
+    category: "frontend",
+    image: Monitoria,
+    title: "Monitoria (Frontend)",
+    desc: "Monitoria page developed during the Boticario group's"
+          + " 2023"
+          + " program",
+    demo: "https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/monitoria__01/",
+    github: "https://github.com/vinizer4/BoticarioDesenvolveAlura/blob/main/projects/monitoria__01",
+  },
+  {
+    id: 21,
+    category: "frontend",
+    image: AluraMidi,
+    title: "Alura MIDI (Frontend)",
+    desc: "Alura Midi page developed during the Boticario group's"
+          + " 2023"
+          + " program",
+    demo: "https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/midi__alura/",
+    github: "https://github.com/vinizer4/BoticarioDesenvolveAlura/blob/main/projects/midi__alura",
+  },
+  {
+    id: 22,
+    category: "frontend",
+    image: AluraFone,
+    title: "Alura Fone (Frontend)",
+    desc: "Alura Fone page developed during the Boticario group's"
+          + " 2023"
+          + " program",
+    demo: "https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/telefone__alura/",
+    github: "https://github.com/vinizer4/BoticarioDesenvolveAlura/blob/main/projects/telefone__alura",
+  },
+  {
+    id: 23,
+    category: "frontend",
+    image: Robotron,
+    title: "Robotron (Frontend)",
+    desc: "Robotron app developed during the Boticario group's"
+          + " 2023"
+          + " program",
+    demo: "https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/robotron__2000/",
+    github: "https://github.com/vinizer4/BoticarioDesenvolveAlura/blob/main/projects/robotron__2000",
+  },
+  {
+    id: 24,
+    category: "backend",
+    image: NodeJS,
+    title: "Ignite Rentx API (Backend)",
+    desc: "API for car rental systems developed in the course"
+          + " ignite rocketseat NodeJS, Express, TypeORM, JWT",
+    github: "https://github.com/vinizer4/IgniteCarsAPI",
+  },
+  {
+    id: 25,
+    category: "frontend",
+    image: Image6,
+    title: "Employee Registration (Frontend)",
+    desc: "Registration of employees, data stored in a host location in the user's browser",
+    demo: "https://vinizer4.github.io/CadastroFuncionarios-CRUD/",
+    github: "https://github.com/vinizer4/CadastroFuncionarios-CRUD",
+  }
 ];
 
 export default data;
