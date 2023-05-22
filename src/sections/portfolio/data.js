@@ -21,8 +21,19 @@ import AluraMidi from '../../assets/aluraMidi.png'
 import Monitoria from '../../assets/monitoria.png'
 import NodeJS from '../../assets/NodeJS.png'
 import DTmoney from '../../assets/DTmoney.png'
+import CarsRent from '../../assets/carsRent.png'
 
 const data = [
+  {
+    id: 26,
+    category: "fullstack",
+    image: CarsRent,
+    title: "CarsRent APP (Fullstack)",
+    desc: "Application for car rentals, via category location, the objective of this project is to build a complete system from backend to frontend using React and SpringBoot, it is part of the last two months of Digital House before specialization.\n"
+          + "\n"
+          + "Project in progress....",
+    github: "https://github.com/vinizer4/carsRent",
+  },
   {
     id: 1,
     category: "frontend",
