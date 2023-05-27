@@ -22,6 +22,7 @@ import Monitoria from '../../assets/monitoria.png'
 import NodeJS from '../../assets/NodeJS.png'
 import DTmoney from '../../assets/DTmoney.png'
 import CarsRent from '../../assets/carsRent.png'
+import JogoDaVelha from '../../assets/Jogodavelha.png'
 
 const data = [
   {
@@ -263,6 +264,15 @@ const data = [
     desc: "Registration of employees, data stored in a host location in the user's browser",
     demo: "https://vinizer4.github.io/CadastroFuncionarios-CRUD/",
     github: "https://github.com/vinizer4/CadastroFuncionarios-CRUD",
+  },
+  {
+    id: 31,
+    category: "frontend",
+    image: JogoDaVelha,
+    title: "Tic Tac Toe (Frontend)",
+    desc: "Tic-tac-toe developed using pure javascript html and css",
+    demo: "https://vinizer4.github.io/JogoDaVelhaProgramadoBR/",
+    github: "https://github.com/vinizer4/JogoDaVelhaProgramadoBR",
   }
 ];
 
